@@ -12,6 +12,27 @@ yarn add strapi-hook-allegro
 npm install strapi-hook-allegro --save
 ```
 
+## Hook config
+
+To activate and configure the hook, you need to create or update the file `./config/hook.js` in your strapi app.
+
+```js
+module.exports = {
+  settings: {
+    // ...
+    allegro: {
+      enabled: true,
+      sandbox: true,
+      accounts: [""], // list of allegro accounts used by hook
+      app_name: "",
+      type: "", // device or web
+      client_id: "",
+      client_secret: "",
+    },
+  },
+};
+```
+
 ### Resources
 
 - [MIT License](LICENSE.md)
