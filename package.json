@@ -1,0 +1,41 @@
+{
+  "name": "strapi-hook-allegro",
+  "version": "0.1.0",
+  "description": "A hook to setup a Allegro service for the Strapi framework",
+  "homepage": "http://strapi.io",
+  "keywords": [
+    "allegro",
+    "hook",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "main": "lib",
+  "dependencies": {
+    "allegro-rest-client": "^1.1.0"
+  },
+  "strapi": {
+    "isHook": true
+  },
+  "author": {
+    "name": "Dominik Aksamit",
+    "email": "daksamit@daksamit.pl",
+    "url": "https://github.com/daksamit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/daksamit/strapi-hook-allegro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daksamit/strapi-hook-allegro/issues"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo no test specified"
+  }
+}
