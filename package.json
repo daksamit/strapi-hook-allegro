@@ -1,6 +1,6 @@
 {
   "name": "strapi-hook-allegro",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A hook to setup a Allegro service for the Strapi framework",
   "homepage": "http://strapi.io",
   "keywords": [
@@ -13,7 +13,7 @@
   },
   "main": "lib",
   "dependencies": {
-    "allegro-rest-client": "^1.1.0"
+    "allegro-rest-client": "^1.1.1"
   },
   "strapi": {
     "isHook": true
